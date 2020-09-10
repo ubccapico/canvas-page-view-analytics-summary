@@ -24,7 +24,7 @@ An example `CANVAS_API_DOMAIN` is `https://{school}.instructure.com/api/v1`
 1. Run the installation script. `npm install` (If you see `babel-node: command not found`, you've missed this step.)
 1. Open `index.js` and supply the Canvas course IDs where it says `/* add Canvas course IDs here */`.
 1. Run the script. `npm start`.
-1. An `{Canvas user id}-pageviews.csv` file should be generated for each Canvas course ID.
+1. An `{Canvas course id}-pageviews.csv` file should be generated for each Canvas course ID.
 
 ## Authors
 
