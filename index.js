@@ -3,10 +3,10 @@ const writeToCSV = require('./writeToCSV')
 
 Promise.all(
   [
-    // canvas ids here
+    /* add Canvas course IDs here */
   ].map(
     courseId => canvasAPI
       .getCourseAnalytics(courseId)
-      .then(analytics => writeToCSV(analytics, `${courseId}-analytics.csv`))
+      .then(analytics => writeToCSV(analytics, `${courseId}-pageviews.csv`))
   )
 )

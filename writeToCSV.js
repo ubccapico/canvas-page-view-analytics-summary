@@ -9,7 +9,7 @@ const writeToCSV = (data, filename) => {
   const csv = path.join(__dirname, '/output/', filename)
 
   const header = [
-    'student_number',
+    'canvas_id',
     'page_views' + '\r\n'
   ]
 
